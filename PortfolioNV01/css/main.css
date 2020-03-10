@@ -1191,7 +1191,7 @@ img.logo:hover{
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: linear-gradient(137deg, #0e0a05d9, #072d2b,#2b17039e);
 	border-radius: 41px 0px;
 	padding: 18px 32px;
 	margin: 0;
@@ -1574,6 +1574,13 @@ img.logo:hover{
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
+	}
+	img.logo{
+		display: grid;
+		width: 4em;
+		height: auto;
+		margin-left: 1em;
+		transition: transform .1s;
 	}
 }
 
@@ -2569,3 +2576,19 @@ footer .copyright span:last-child::after {
 	width: 100%;
 	height: auto;
   }
+
+  #center-content{
+	position: absolute; /* postulat de départ */
+	top: 50%; left: 50%; /* à 50%/50% du parent référent */
+	transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  }
+
+  .js-count-particles{
+	font-size: 1.1em;
+  }
+  
+  .count-particles{
+	border-radius: 0 0 3px 3px;
+  }
+  
+  
