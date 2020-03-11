@@ -1072,19 +1072,6 @@ header .top-bar {
 	margin-left: -2em;
 }
 
-img.logo{
-	display: grid;
-	width: 7em;
-	height: auto;
-	margin-left: 1em;
-	transition: transform .2s;
-}
-
-img.logo:hover{
-	transform: scale(1.3);
-}
-
-
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
