@@ -441,7 +441,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid #FF0077;
+	border-left: 11px solid rgb(102, 255, 0);
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -1579,7 +1579,6 @@ header .top-bar {
  */
 #resume {
 	padding-top: 12rem;
-	padding-bottom: 12rem;
 }
 
 #resume .resume-header {
@@ -1589,9 +1588,6 @@ header .top-bar {
 	color: #FF0077;
 }
 
-#resume .resume-timeline {
-	max-width: 980px;
-}
 #resume .timeline-wrap {
 	position: relative;
 	margin-top: 1.5rem;
