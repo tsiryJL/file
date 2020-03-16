@@ -42,7 +42,7 @@
 }
 
 .categoryWrapper{
-  height: 310px;
+  height: 14em;
   width: 460px;
   display: flex;
   justify-content: center;
@@ -56,11 +56,7 @@
   left: 0;
   right:0;
   bottom: 0;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a29ca9+0,95909b+99 */
-background: #a29ca9; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #296104 0%, #95909b 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #e29c05 0%,#c58c12 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #004e04 0%,#95909b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   content: '';
   opacity: 0;
@@ -72,7 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 }
 
 .categoryWrapper h1{
-  color:rgb(34, 34, 34);
+  color:black;
   font-size: 50px;
   letter-spacing: 2px;
   -webkit-transition: all 0.15s ease 0s; 
@@ -163,7 +159,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 
 .categoryWrapper:hover button > span > span:before{
   opacity: 1;
-  border-bottom: 1px solid rgb(70, 70, 70);
+  border-bottom: 1px solid rgb(31, 32, 31);
   width: calc(50%);
   height: 1px;
   transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
@@ -182,7 +178,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 
 .categoryWrapper:hover button > span > span:after{
   opacity: 1;
-  border-bottom: 1px solid rgb(39, 39, 39);
+  border-bottom: 1px solid rgb(32, 32, 32);
   width: calc(50%);
   height: 1px;
   transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
@@ -194,17 +190,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 }
 
 .categoryWrapper:hover button > span > span > span{
-  color:rgb(36, 36, 36);
+  color: black;
 }
 
 .categoryWrapper button > span > span > span:after{
   position: absolute;
   top:0;left:0;right:0;bottom:0;
-  color:#1f2e4d;
+  color:white;
   content: attr(data-attr-span);
   width: 0%;
   height: 100%;
-  background:rgb(5, 5, 5);
+  background:rgb(0, 0, 0);
   white-space: nowrap;
   text-align: center;
   margin: auto;
