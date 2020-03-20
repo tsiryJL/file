@@ -1,20 +1,11 @@
-/** 
- * ===================================================================
- * 01. webfonts and iconfonts - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
+@import '../css/button.css';
+@import '../css/pulse.css';
+@import '../css/stars.css';
+@import '../css/vendor.css';
 
-
-/** 
- * ===================================================================
- * 02. base style overrides - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 html {
 	font-size: 10px;
 }
@@ -39,7 +30,7 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: white;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -989,7 +980,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .grey-section {
-	background: #1f1d27;
+	background: white;
+	padding-top: 2em;
 }
 .grey-section p.lead {
 	color: #7d7d7d;
@@ -1078,8 +1070,6 @@ header .top-bar {
  */
 .menu-toggle {
 	float: left;
-	width: 40px;
-	height: 40px;
 	margin-left: 20px;
 	margin-top: 13px;
 	display: block;
@@ -1442,7 +1432,6 @@ header .top-bar {
 #about {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1469,7 +1458,6 @@ header .top-bar {
 	position: relative;
 	text-align: left;
 	max-width: 850px;
-	margin-bottom: 3.6rem;
 }
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
@@ -1577,9 +1565,6 @@ header .top-bar {
  *
  * ------------------------------------------------------------------- 
  */
-#resume {
-	padding-top: 12rem;
-}
 
 #resume .resume-header {
 	text-align: center;
@@ -2447,6 +2432,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	background-color: #000;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
@@ -2572,6 +2558,11 @@ footer .copyright span:last-child::after {
   
   .count-particles{
 	border-radius: 0 0 3px 3px;
+  }
+
+  .skill-img{
+	  float: left;
+	  margin:5px 12px 0px 0px;
   }
   
   

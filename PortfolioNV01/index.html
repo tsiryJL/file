@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en"> 
   <head>
     <meta charset="utf-8">
       <title>Portfolio de Jean Luc</title>
-    <meta name="description" content="">  
+    <meta name="description" content="Ce site web contient mes information professionnel">  
     <meta name="author" content="Razanakoto Tsirimanana jean luc, tsiryjl, tsiry jean luc, Arialy, Blender, Designer, integrateur web, 3D, event, decoration, site vitrine, conception web, developpeur web, portfolio, CNTEMAD, bambins sage, sayna">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-      <link rel="stylesheet" href="css/base.css">  
-      <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="css/button.css">
-      <link rel="stylesheet" href="css/vendor.css">
-      <link rel="stylesheet" href="css/pulse.css">  
-      <link rel="stylesheet" href="css/stars.css">
-      
-      <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <link rel="stylesheet" href="css/base.css">  
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
 
     <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-   
+    
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">  
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
   </head>
+
   <body id="top">
     <header>   	
       <div class="row">
@@ -49,57 +47,46 @@
     <section id="intro">   
       <div class="intro-overlay"></div>	
       <div class="intro-content">
-          <!-- ######################### -->		   
-          <!-- count particles -->
-        <!-- ######################### -->
-
         <div class="count-particles">
           <span class="js-count-particles"></span> 
-        </div>		
+        </div>
+
         <div id="particles-js">
             <div class="row">
-                <div class="col-twelve" id="center-content">
-                  <h5>Hello,</h5>
-                  <h1>Je suis Jean Luc.<span class="typed"></span></h1>
+              <div class="col-twelve" id="center-content">
+                <h5>Hello,</h5>
+                <h1>Je suis Jean Luc.<span class="typed"></span></h1>
+                <p class="intro-position">
+                  <span>Front-end Developer</span>
+                  <span>UI/UX Designer</span> 
+                </p>       
+                <a class="primary-btn smoothscroll" href="#about" title="" data-text="Plus d'info">
+                  <span>S</span>
+                  <span>u</span>
+                  <span>r</span>
+                  <span> </span>
+                  <span>m</span>
+                  <span>o</span>
+                  <span>i</span>
+                  <span> </span>
+                </a>
+              </div>      
+            </div>   		 		
+        </div> 
         
-                  <p class="intro-position">
-                    <span>Front-end Developer</span>
-                    <span>UI/UX Designer</span> 
-              </p>
-              
-              <a class="primary-btn smoothscroll" href="#about" title="" data-text="Plus d'info">
-                <span>S</span>
-                <span>u</span>
-                <span>r</span>
-                <span> </span>
-                <span>m</span>
-                <span>o</span>
-                <span>i</span>
-                <span> </span>
-                
-              </a>
-        
-                </div>  
-                
-              </div>   		 		
-            </div> <!-- /intro-content --> 
-        
-            <ul class="intro-social">        
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul> <!-- /intro-social -->      	
-        
+        <ul class="intro-social">        
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-behance"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul> 
     </section> 
         
     <!-- scripts -->
     <script src="../particles.js"></script>
     <script src="js/app.js"></script>
     
-      
-
     <!-- about section
     ================================================== -->
     <section id="about">  
@@ -128,7 +115,7 @@
         <div class="col-six tab-full">
 
           <h3>Skills Value</h3>
-          <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+          <p><img src="./images/skill.gif" alt="skills" class="skill-img">Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
 
           <ul class="skill-bars">
             <li>
@@ -152,46 +139,39 @@
               <div class="progress percent75"><span>75%</span></div>
               <strong>Ruby</strong>
             </li>
-        
-          </ul> <!-- /skill-bars -->		
-
+          </ul> 		
         </div>
-
       </div>
 
       <div class="row button-section" style="display: flex; place-content:center; flex-wrap:wrap;">
-                    <!-- THIS IS GOING TO BE A MAGENTO BUTTON -->
-         
-                  <div class="categoryWrapper">
-                      <h1>Github</h1>
-                      <button>
-                          <span>
-                              <span>
-                                  <span data-attr-span="Visiter">
-                                      mon compte
-                                  </span>
-                              </span>
-                          </span>
-                      </button>
-                  </div> 
-     
-                  <div class="categoryWrapper">
-                    <h1>CV</h1>
-                    <button>
-                        <span>
-                            <span>
-                                <span data-attr-span="Télécharger">
-                                    mon CV
-                                </span>
-                            </span>
+        <!-- THIS IS GOING TO BE A MAGENTO BUTTON -->
+        <div class="categoryWrapper">
+            <h1>Github</h1>
+            <button>
+                <span>
+                    <span>
+                        <span data-attr-span="Visiter">
+                            mon compte
                         </span>
-                    </button>
-                  </div> 
-        
+                    </span>
+                </span>
+            </button>
+        </div> 
+        <!-- THIS IS GOING TO BE A MAGENTO BUTTON -->
+        <div class="categoryWrapper">
+          <h1>CV</h1>
+          <button>
+              <span>
+                  <span>
+                      <span data-attr-span="Télécharger">
+                          mon CV
+                      </span>
+                  </span>
+              </span>
+          </button>
+        </div> 
       </div>
-
     </section>   
-
 
     <!-- resume Section
     ================================================== -->
@@ -200,7 +180,7 @@
 
         <div class="col-twelve resume-header">
 
-          <h2>Work Experience</h2>
+          <h2>Work Experience</h2><img src="./images/activity.gif" alt="">
 
         </div> <!-- /resume-header -->
 
@@ -265,450 +245,233 @@
       </div> 
     </section> 
 
-
     <!-- Caroussel Section
     ================================================== -->
     <section id="cta" class="grey-section">
       <div id="owl-demo"> 
-          <div class="item icon"><i class="icon-paint-brush"></i></div>
-          <div class="item icon"><i class="icon-earth"></i></div>
-          <div class="item icon"><i class="icon-window"></i></div>
-          <div class="item icon"><i class="icon-paint-brush"></i></div>
-          <div class="item icon"><i class="icon-toggles"></i></div>
-          <div class="item icon"><i class="icon-image"></i></div>
-          <div class="item icon"><i class="icon-chat"></i></div>
-          <div class="item icon"><i class="icon-earth"></i></div>    
+
+          <div class="item icon">
+            <svg id="AdobePhotoshop" xmlns="http://www.w3.org/    2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+              <defs>
+                <radialGradient id="radial-gradient" cx="0.399" cy="0.333" r="0.652" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#0e0e17" stop-opacity="0.851"/>
+                  <stop offset="0.767" stop-color="#0e0e17"/>
+                </radialGradient>
+              </defs>
+              <g id="Adobe_Photoshop">
+                <path id="path0_fill" d="M0,24A24,24,0,1,1,24,48,24,24,0,0,1,0,24Z" fill="#31c5f0"/>
+                <path id="path0_fill-2" data-name="path0_fill" d="M0,21.6A21.6,21.6,0,1,1,21.6,43.2,21.6,21.6,0,0,1,0,21.6Z" transform="translate(2.4 2.4)" fill="url(#radial-gradient)"/>
+                <path id="Shape" d="M14.65,20.449c-.125-.063-.157-.157-.157-.314V17.344c0-.188.094-.251.22-.157a7.042,7.042,0,0,0,3.829,1.129c1.506,0,2.133-.627,2.133-1.474,0-.69-.439-1.286-2.353-2.29-2.7-1.286-3.826-2.6-3.826-4.8,0-2.446,1.913-4.485,5.237-4.485a8.865,8.865,0,0,1,3.41.533.41.41,0,0,1,.188.376v2.6c0,.157-.094.251-.283.188a6.828,6.828,0,0,0-3.316-.815c-1.506,0-2.007.753-2.007,1.381,0,.689.345,1.16,2.353,2.2C23.059,13.172,24,14.552,24,16.591c0,3.043-2.321,4.674-5.458,4.674A8.287,8.287,0,0,1,14.65,20.449ZM.22,20.977c-.157,0-.22-.063-.22-.22V.313C0,.188.269.095.426.095,1.649.032,3.445,0,5.326,0c5.27,0,7.322,2.885,7.322,6.586,0,4.83-3.5,6.9-7.8,6.9-.722,0-.973-.032-1.474-.032v7.3c0,.157-.063.22-.22.22Z" transform="translate(12 13.6)" fill="#31c5f0"/>
+              </g>
+            </svg>
+            
+          </div>
+
+          <div class="item icon">
+            <svg id="AdobeXD" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+              <defs>
+                <radialGradient id="radial-gradient" cx="0.399" cy="0.333" r="0.652" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#0e0e17" stop-opacity="0.851"/>
+                  <stop offset="0.767" stop-color="#0e0e17"/>
+                </radialGradient>
+              </defs>
+              <g id="Adobe_XD">
+                <path id="path0_fill" d="M0,24A24,24,0,1,1,24,48,24,24,0,0,1,0,24Z" fill="#ff2bc2"/>
+                <path id="path0_fill-2" data-name="path0_fill" d="M0,21.6A21.6,21.6,0,1,1,21.6,43.2,21.6,21.6,0,0,1,0,21.6Z" transform="translate(2.4 2.4)" fill="url(#radial-gradient)"/>
+                <path id="Shape" d="M13.7,11.115c0-3.786,2.437-6.744,6.434-6.744a7.223,7.223,0,0,1,.845.032V.179A.163.163,0,0,1,21.14.016h2.616c.13,0,.162.049.162.13V15A11.487,11.487,0,0,0,24,16.592c0,.113,0,.13-.1.178a9.678,9.678,0,0,1-4.16.942C16.216,17.712,13.7,15.535,13.7,11.115ZM9.781,17.566a.319.319,0,0,1-.341-.212c-1.04-2.145-2.1-4.371-3.185-6.679H6.223c-.975,2.178-2.047,4.55-3.087,6.7a.313.313,0,0,1-.293.179H.145c-.162,0-.178-.131-.1-.228L4.5,8.759.194.244A.144.144,0,0,1,.308,0H3.1c.163,0,.244.032.293.179C4.419,2.34,5.458,4.469,6.434,6.647h.032C7.409,4.5,8.449,2.34,9.44.212,9.521.081,9.57,0,9.733,0h2.616c.13,0,.179.1.1.244L8.157,8.483l4.55,8.824c.081.13.032.26-.1.26Z" transform="translate(12 15.2)" fill="#fed7f0"/>
+              </g>
+            </svg>
+            
+          </div>
+
+          <div class="item icon">
+            <svg id="Figma" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+              <g id="Figma-2" data-name="Figma">
+                <g id="Color">
+                  <g id="Taobao">
+                    <g id="back">
+                      <g id="path0_fill-link">
+                        <path id="path0_fill" d="M0,24A24,24,0,1,1,24,48,24,24,0,0,1,0,24Z" fill="#333"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g id="Group" transform="translate(14.4 9.6)">
+                  <g id="_5" data-name="5" transform="translate(0 19.2)">
+                    <g id="path1_fill-link">
+                      <path id="path1_fill" d="M4.8,9.6A4.8,4.8,0,0,0,9.6,4.8V0H4.8a4.8,4.8,0,0,0,0,9.6Z" fill="#0acf83"/>
+                    </g>
+                  </g>
+                  <g id="_4" data-name="4" transform="translate(0 9.6)">
+                    <g id="path2_fill-link">
+                      <path id="path2_fill" d="M0,4.8A4.8,4.8,0,0,1,4.8,0H9.6V9.6H4.8A4.8,4.8,0,0,1,0,4.8Z" fill="#a259ff"/>
+                    </g>
+                  </g>
+                  <g id="_3" data-name="3">
+                    <g id="path2_fill-link-2" data-name="path2_fill-link">
+                      <path id="path2_fill-2" data-name="path2_fill" d="M0,4.8A4.8,4.8,0,0,1,4.8,0H9.6V9.6H4.8A4.8,4.8,0,0,1,0,4.8Z" fill="#f24e1e"/>
+                    </g>
+                  </g>
+                  <g id="_2" data-name="2" transform="translate(9.6)">
+                    <g id="path3_fill-link">
+                      <path id="path3_fill" d="M0,0H4.8a4.8,4.8,0,0,1,0,9.6H0Z" fill="#ff7262"/>
+                    </g>
+                  </g>
+                  <g id="_1" data-name="1" transform="translate(9.6 9.6)">
+                    <g id="path4_fill-link">
+                      <path id="path4_fill" d="M9.6,4.8A4.8,4.8,0,1,1,4.8,0,4.8,4.8,0,0,1,9.6,4.8Z" fill="#1abcfe"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            
+          </div>
+          
+          <div class="item icon"></div>
+          <div class="item icon"></div>
+          <div class="item icon"></div>
+          <div class="item icon"></div>
+          <div class="item icon"></div>    
       </div>
     </section> 
 
-    
-    <!-- Image Section
-    ================================================== -->
-    <section id="portfolio">
-      
-        <div class="row section-intro">
-          <div class="col-twelve">
 
-            <h5>Portfolio</h5>
-            <h1>Check Out Some of My Works.</h1>
+    <!-- Big Slide image
+    ================================================== -->    
+  <!-- ***** Welcome Area Start ***** -->
+  <section class="welcome-area">
+    <div class="carousel h-100 slide" data-ride="carousel" id="welcomeSlider">
+        <!-- Carousel Inner -->
+        <div class="carousel-inner h-100">
 
-            <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-
-          </div>   		
-        </div> <!-- /section-intro--> 
-
-        <div class="row portfolio-content">
-
-          <div class="col-twelve">
-            <div id='stars'></div>
-            <div id='stars2'></div>
-            <div id='stars3'></div>
-            <!-- portfolio-wrapper -->
-              <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-                <div class="bgrid folio-item">
-                    <div class="item-wrap">
-                      <img src="images/portfolio/liberty.jpg" alt="Liberty">
-                        <a href="#modal-01" class="overlay">	                  	           
-                          <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                            <h3 class="folio-title">Liberty</h3>	     					    
-                            <span class="folio-types">
-                                Graphic Design
-                            </span>
-                        </div>	                      	
-                          </div>                    
-                        </a>
-                    </div>	               
-                  </div> <!-- /folio-item -->
-
-                  <div class="bgrid folio-item">
-                    <div class="item-wrap">
-                      <img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
-                      <a href="#modal-02" class="overlay">              		                  
-                          <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                              <h3 class="folio-title">Shutterbug</h3>	     					    
-                            <span class="folio-types">
-                                Web Design
-                            </span>		     		
-                        </div> 	                      	
-                          </div>                    
-                        </a>
+            <div class="carousel-item h-100 bg-img active" style="background-image: url(images/bg-img/1.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>01.</span>
+                        <h2> Believe you can fly</h2>
                     </div>
-                  </div> <!-- /folio-item -->
-
-                  <div class="bgrid folio-item">
-                    <div class="item-wrap">
-                      <img src="images/portfolio/clouds.jpg"alt="Clouds">
-                        <a href="#modal-03" class="overlay">             		                  
-                          <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                              <h3 class="folio-title">Clouds</h3>	     					    
-                            <span class="folio-types">
-                                Web Design
-                            </span>		     		
-                        </div> 	                      	
-                          </div>                    
-                        </a>
-                    </div>
-                  </div> <!-- /folio-item -->
-
-                  <div class="bgrid folio-item">
-                    <div class="item-wrap">
-                      <img src="images/portfolio/beetle.jpg" alt="Beetle">
-                        <a href="#modal-04" class="overlay">                  	                 
-                          <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                              <h3 class="folio-title">Beetle</h3>	     					    
-                            <span class="folio-types">
-                                Branding
-                            </span>		     		
-                        </div>  	                      	
-                          </div>                    
-                        </a>
-                    </div>
-                  </div> <!-- /folio-item -->     
-
-                  <div class="bgrid folio-item">
-                    <div class="item-wrap">
-                      <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
-                        <a href="#modal-05" class="overlay">             		                  
-                          <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                              <h3 class="folio-title">Lighthouse</h3>	     					    
-                            <span class="folio-types">
-                                Web Development
-                            </span>		     		
-                        </div> 	                      	
-                          </div>                    
-                        </a>
-                    </div>
-                  </div> <!-- /folio-item -->
-
-                  <div class="bgrid folio-item">
-                    <div class="item-wrap">
-                      <img src="images/portfolio/salad.jpg" alt="Salad">
-                        <a href="#modal-06" class="overlay">
-                          <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                              <h3 class="folio-title">Salad</h3>	     					    
-                            <span class="folio-types">
-                                Branding
-                            </span>		     		
-                        </div>	                      	
-                          </div>                    
-                        </a>
-                    </div>
-                  </div> <!-- /folio-item -->   
-
-                  <!-- modal popups - begin
-                  ============================================================= -->
-                  <div id="modal-01" class="popup-modal slider mfp-hide">	
-
-                  <div class="media">
-                    <img src="images/portfolio/modals/m-liberty.jpg" alt="" />
-                  </div>      	
-
-                <div class="description-box">
-                    <h4>Liberty</h4>		      
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                    <div class="categories">Web Development</div>			               
                 </div>
-
-                  <div class="link-box">
-                      <a href="http://www.behance.net">Details</a>
-                    <a href="#" class="popup-modal-dismiss">Close</a>
-                  </div>		      
-
-              </div> <!-- /modal-01 -->
-
-              <div id="modal-02" class="popup-modal slider mfp-hide">	
-
-                  <div class="media">
-                    <img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
-                  </div>      	
-
-                <div class="description-box">
-                    <h4>Shutterbug</h4>		      
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                    <div class="categories">Web Design</div>			               
-                </div>
-
-                  <div class="link-box">
-                      <a href="http://www.behance.net">Details</a>
-                    <a href="#" class="popup-modal-dismiss">Close</a>
-                  </div>		      
-
-              </div> <!-- /modal-02 -->
-
-              <div id="modal-03" class="popup-modal slider mfp-hide">	
-
-                  <div class="media">
-                    <img src="images/portfolio/modals/m-clouds.jpg" alt="" />
-                  </div>      	
-
-                <div class="description-box">
-                    <h4>Clouds</h4>		      
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                    <div class="categories">Web Design</div>			               
-                </div>
-
-                  <div class="link-box">
-                      <a href="http://www.behance.net">Details</a>
-                    <a href="#" class="popup-modal-dismiss">Close</a>
-                  </div>		      
-
-              </div> <!-- /modal-03 -->
-
-              <div id="modal-04" class="popup-modal slider mfp-hide">	
-
-                  <div class="media">
-                    <img src="images/portfolio/modals/m-beetle.jpg" alt="" />
-                  </div>      	
-
-                <div class="description-box">
-                    <h4>Beetle</h4>		      
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                    <div class="categories">Branding</div>			               
-                </div>
-
-                  <div class="link-box">
-                      <a href="http://www.behance.net">Details</a>
-                    <a href="#" class="popup-modal-dismiss">Close</a>
-                  </div>		      
-
-              </div> <!-- /modal-04 -->
-
-              <div id="modal-05" class="popup-modal slider mfp-hide">	
-
-                  <div class="media">
-                    <img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
-                  </div>      	
-
-                <div class="description-box">
-                    <h4>Lighthouse</h4>		      
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                    <div class="categories">Web Development</div>			               
-                </div>
-
-                  <div class="link-box">
-                      <a href="http://www.behance.net">Details</a>
-                    <a href="#" class="popup-modal-dismiss">Close</a>
-                  </div>		      
-
-              </div> <!-- /modal-05 -->
-
-              <div id="modal-06" class="popup-modal slider mfp-hide">	
-
-                  <div class="media">
-                    <img src="images/portfolio/modals/m-salad.jpg" alt="" />
-                  </div>      	
-
-                <div class="description-box">
-                    <h4>Salad</h4>		      
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                    <div class="categories">Branding</div>			               
-                </div>
-
-                  <div class="link-box">
-                      <a href="http://www.behance.net">Details</a>
-                    <a href="#" class="popup-modal-dismiss">Close</a>
-                  </div>		      
-
-              </div> <!-- /modal-06 -->
-              </div> <!-- /portfolio-wrapper --> 
-          </div>  <!-- /twelve -->   
-        </div> <!-- /portfolio-content --> 		
-    </section> 
-
-    <!-- services Section
-    ================================================== -->
-    <section id="services">
-      <div class="overlay"></div>
-      <div class="row section-intro">
-        <div class="col-twelve">
-
-          <h5>Services</h5>
-          <h1>What Can I Do For You?</h1>
-
-          <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-
-        </div>   		
-      </div> 
-
-        <div id="owl-demo">
-            <div id="owl-slider" class="owl-carousel services-list">
-                <div class="service">	
-                  <span class="icon"><i class="icon-earth"></i></span>            
-                    <div class="service-content">	
-                      <h3>Webdesign</h3>                
-                    </div> 	         	 
-                </div> 
-            
-         
-
-            <div class="service">	
-              <span class="icon"><i class="icon-window"></i></span>                          
-                  <div class="service-content">	
-                    <h3>Web Development</h3>  
-                  </div>	                          
-            </div> 
-
-            <div class="service">
-              <span class="icon"><i class="icon-paint-brush"></i></span>		            
-                  <div class="service-content">
-                    <h3>Branding</h3>
-                  </div> 	            	               
-            </div> 
-          
-
-            <div class="service">
-              <span class="icon"><i class="icon-toggles"></i></span>	              
-                  <div class="service-content">
-                    <h3>UI/UX Design</h3>
-                  </div>                
-            </div> 
-         
-
-            <div class="service">
-              <span class="icon"><i class="icon-image"></i></span>	            
-                  <div class="service-content">
-                    <h3>Graphics Design</h3>
-                  </div>	               
             </div>
-          
 
-        
-            <div class="service">
-              <span class="icon"><i class="icon-chat"></i></span>	   	           
-                  <div class="service-content">
-                    <h3>Consultancy</h3>
-                  </div>	               
-            </div> 
-           
-        </div> 
-    </section> 
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/2.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>02.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/3.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>03.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/4.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>04.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/5.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>05.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/6.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>06.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/7.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>07.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/8.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>08.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/9.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>09.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/10.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>10.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/11.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>11.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/12.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>12.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100 bg-img" style="background-image: url(images/bg-img/13.jpg);">
+                <div class="carousel-content h-100">
+                    <div class="slide-text">
+                        <span>13.</span>
+                        <h2> Believe you can fly</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#welcomeSlider" data-slide-to="0" class="active bg-img" style="background-image: url(images/bg-img/1.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="1" class="bg-img" style="background-image: url(images/bg-img/2.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="2" class="bg-img" style="background-image: url(images/bg-img/3.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="3" class="bg-img" style="background-image: url(images/bg-img/4.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="4" class="bg-img" style="background-image: url(images/bg-img/5.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="5" class="bg-img" style="background-image: url(images/bg-img/6.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="6" class="bg-img" style="background-image: url(images/bg-img/7.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="7" class="bg-img" style="background-image: url(images/bg-img/8.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="8" class="bg-img" style="background-image: url(images/bg-img/9.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="9" class="bg-img" style="background-image: url(images/bg-img/10.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="10" class="bg-img" style="background-image: url(images/bg-img/11.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="11" class="bg-img" style="background-image: url(images/bg-img/12.jpg);"></li>
+            <li data-target="#welcomeSlider" data-slide-to="12" class="bg-img" style="background-image: url(images/bg-img/13.jpg);"></li>
+        </ol>
+    </div>
+  </section>
+<!-- ***** Welcome Area End ***** -->
 
 
-    <!-- stats Section
-    ================================================== -->
-    <section id="stats" class="count-up">
-
-      <div class="row">
-        <div class="col-twelve">
-
-          <div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
-
-            <div class="bgrid stat">
-
-              <div class="icon-part">
-                <i class="icon-pencil-ruler"></i>
-              </div>
-
-              <h3 class="stat-count">
-                1500
-              </h3>
-
-              <h5 class="stat-title">
-                Projects Completed
-              </h5>
-
-            </div> <!-- /stat -->					
-
-            <div class="bgrid stat">
-
-              <div class="icon-part">
-                <i class="icon-users"></i>
-              </div>
-
-              <h3 class="stat-count">
-                900
-              </h3>
-
-              <h5 class="stat-title">
-                Happy Clients
-              </h5>
-
-            </div> <!-- /stat -->
-
-            <div class="bgrid stat">
-
-              <div class="icon-part">
-                <i class="icon-badge"></i>
-              </div>
-
-              <h3 class="stat-count">
-                200
-              </h3>
-
-              <h5 class="stat-title">
-                Awards Received
-              </h5>
-
-            </div> <!-- /stat -->									
-
-            <div class="bgrid stat">
-
-              <div class="icon-part">
-                <i class="icon-light-bulb"></i>
-              </div>
-
-              <h3 class="stat-count">
-                120
-              </h3>
-
-              <h5 class="stat-title">
-                Crazy Ideas
-              </h5>
-
-            </div> <!-- /stat -->
-
-            <div class="bgrid stat">
-
-              <div class="icon-part">
-                <i class="icon-cup"></i>
-              </div>
-
-              <h3 class="stat-count">
-                1500
-              </h3>
-
-              <h5 class="stat-title">
-                Coffee Cups
-              </h5>
-
-            </div> <!-- /stat -->
-
-            <div class="bgrid stat">
-
-              <div class="icon-part">
-                <i class="icon-clock"></i>
-              </div>
-
-              <h3 class="stat-count">
-                7200
-              </h3>
-
-              <h5 class="stat-title">
-                Hours
-              </h5>
-
-            </div> <!-- /stat -->
-
-          </div> <!-- /stats-list -->
-
-        </div> <!-- /twelve -->
-      </div> <!-- /row -->
-
-    </section> 
-    
     <!-- footer
     ================================================== -->
     <footer>
@@ -750,5 +513,11 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
+     <!-- jQuery (Necessary for All JavaScript Plugins) -->
+     <script src="js/jquery/jquery-2.2.4.min.js"></script>
+     <!-- Bootstrap js -->
+     <script src="js/bootstrap.min.js"></script>
+     <!-- Active js -->
+     <script src="js/active.js"></script>
   </body>
 </html>
