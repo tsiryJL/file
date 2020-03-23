@@ -3,7 +3,6 @@
 @import url("micons/micons.css");
 @import '../css/button.css';
 @import '../css/pulse.css';
-@import '../css/stars.css';
 @import '../css/vendor.css';
 
 html {
@@ -404,42 +403,7 @@ img.pull-left {
  *
  * ------------------------------------------------------------------- 
  */
-#preloader {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: #151515;
-	z-index: 800;
-	height: 100%;
-	width: 100%;
-}
-.no-js #preloader, .oldie #preloader {
-	display: none;
-}
-#loader {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	width: 60px;
-	height: 60px;
-	margin: -30px 0 0 -30px;
-	padding: 0;
-}
-#loader:before {
-	content: "";
-	border-top: 11px solid rgba(255, 255, 255, 0.1);
-	border-right: 11px solid rgba(255, 255, 255, 0.1);
-	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid rgb(102, 255, 0);
-	-webkit-animation: load 1.1s infinite linear;
-	animation: load 1.1s infinite linear;
-	display: block;
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
-}
+
 @-webkit-keyframes load {
 	0% {
 		-webkit-transform: rotate(0deg);
@@ -1157,6 +1121,8 @@ header .top-bar {
 
 /* navigation panel */
 #main-nav-wrap {
+	background: #111111da;
+	border-radius: 41px 0px;
 	display: block;
 	width: 100%;
 	font-family: "poppins-medium", sans-serif;
@@ -1168,8 +1134,6 @@ header .top-bar {
 
 /* dropdown nav */
 .main-navigation {
-	background: linear-gradient(137deg, #0e0a05d9, #072d2b,#2b17039e);
-	border-radius: 41px 0px;
 	padding: 18px 32px;
 	margin: 0;
 	width: 100%;
@@ -1356,7 +1320,7 @@ header .top-bar {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: #ec8908;
 }
 
 /**
@@ -1431,7 +1395,6 @@ header .top-bar {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1570,7 +1533,7 @@ header .top-bar {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #FF0077;
+	color: rgb(101, 134, 114);
 }
 
 #resume .timeline-wrap {
@@ -1596,7 +1559,7 @@ header .top-bar {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #313131;
+	background: #476151;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
@@ -2517,8 +2480,8 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #16c12b;
-	color: #FFFFFF;
+	background:#658672;
+	color: white;
 	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;

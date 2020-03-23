@@ -213,3 +213,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 .categoryWrapper button:hover > span > span > span:after{
   width: 100%;
 }
+
+@media only screen and (max-width:768px){
+  
+} 

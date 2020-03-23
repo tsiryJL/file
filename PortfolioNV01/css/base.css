@@ -444,6 +444,7 @@ textarea {
 .col-twelve,
 .col-full {
 	width: 100%;
+	text-align: -webkit-center;
 }
 
 /**
