@@ -713,9 +713,10 @@ header .top-bar {
 }
 
 .intro-info {
-	margin-top: 4.2rem;
-	margin-right: -30px;
-	margin-left: -30px;
+	padding: 2em 3em;
+	box-shadow: 0px 4px 10px;
+	background-color: #ffffff59;
+
 }
 .intro-info img {
 	height: 9rem;
@@ -725,13 +726,15 @@ header .top-bar {
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 7px;
 }
 
 .about-content {
 	position: relative;
 	text-align: left;
-	max-width: 850px;
+	margin-top: 5em;
+	margin-bottom: 2em;
+	max-width: 1086px;
 }
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
@@ -769,6 +772,7 @@ header .top-bar {
 
 .button-section {
 	text-align: center;
+	margin-bottom: 2em;
 }
 .button-section .button {
 	width: 250px;
@@ -793,9 +797,7 @@ header .top-bar {
 		height: 7.8rem;
 		width: 7.8rem;
 	}
-	.intro-info .lead {
-		padding-left: 11rem;
-	}
+
 	.about-content h3 {
 		text-align: center;
 	}
@@ -1256,4 +1258,8 @@ footer .copyright span:last-child::after {
 	  margin:5px 12px 0px 0px;
   }
   
+  #point-img{
+	  width: 2em;
+  }
+
   
